@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Rhino backups and locks
+*.3dmbak
+*.3dm.rhl
+*.rhl
+*.tmp
+
+# Generated test geometry. The output folders stay in git via .gitkeep.
+outputs/web/*
+outputs/factory/*
+!outputs/web/.gitkeep
+!outputs/factory/.gitkeep
